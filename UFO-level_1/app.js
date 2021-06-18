@@ -22,8 +22,8 @@ function runFilter() {
     // var inputValue = d3.event.target.value;
     
 
-    console.log("Filter button clicked");
-    console.log(inputValue);
+    // console.log("Filter button clicked");
+    // console.log(inputValue);
     
     var filteredData = tableData.filter(row => row.datetime === inputValue);
     // console.log(filteredData);
