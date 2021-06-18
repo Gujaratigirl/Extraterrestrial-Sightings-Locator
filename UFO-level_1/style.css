@@ -77,11 +77,16 @@ select {
   text-align: center;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
 #table-area th:first-child,
 #table-area th:nth-child(2),
 #table-area th:nth-child(6) {
   min-width: 70px;
 }
+
 
 .loader {
   margin-top: 50px;
@@ -98,7 +103,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("nasa.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -223,3 +228,5 @@ select {
     opacity: 1;
   }
 }
+
+
